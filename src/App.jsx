@@ -16,7 +16,7 @@ function App() {
     };
 
     try {
-      const response = await axios.post(' http://localhost:5173/summarize', data, {
+      const response = await axios.post('https://flaskapiyoutubesummary.onrender.com/summarize', data, {
         headers: {
           'Content-Type': 'application/json',
         },
